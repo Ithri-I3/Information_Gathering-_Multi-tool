@@ -1,0 +1,88 @@
+/* Style global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Sections des outils */
+.tool-section {
+    background-color: #fff;
+    padding: 40px 0;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.tool-container {
+    display: flex; /* Utilisation de Flexbox pour aligner les éléments */
+    align-items: center; /* Centrer les éléments verticalement */
+    justify-content: flex-start; /* Garder les éléments à gauche */
+    gap: 40px; /* Augmenter l'espace entre le logo et le texte */
+    flex-wrap: wrap; /* Pour un affichage fluide en cas de petite taille d'écran */
+}
+
+.tool-logo {
+    width: 200px; /* Taille du logo agrandie */
+    height: auto;
+}
+
+.tool-text {
+    max-width: 600px; /* Limite de largeur du texte */
+}
+
+.tool-text h2 {
+    font-size: 2rem;
+    color: #007BFF;
+}
+
+.tool-text p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
